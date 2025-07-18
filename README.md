@@ -35,7 +35,7 @@ A sophisticated AI-powered email processing agent that automatically classifies,
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/email-agent.git
+git clone https://github.com/ernesthenry/email-agent.git
 cd email-agent
 ```
 
@@ -538,8 +538,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Getting Help
 
 - **Documentation**: Check this README and inline code comments
-- **Issues**: [Create an issue](https://github.com/yourusername/email-agent/issues) on GitHub
-- **Discussions**: Join our [GitHub Discussions](https://github.com/yourusername/email-agent/discussions)
+- **Issues**: [Create an issue](https://github.com/ernesthenry/email-agent/issues) on GitHub
+- **Discussions**: Join our [GitHub Discussions](https://github.com/ernesthenry/email-agent/discussions)
 
 ### Common Issues
 
