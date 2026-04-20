@@ -2,7 +2,7 @@
 
 A sophisticated AI-powered email processing agent that automatically classifies, prioritizes, and responds to emails using LangGraph workflows and OpenAI's language models.
 
-## 🚀 Features
+## Features
 
 - **Smart Email Classification**: Automatically categorizes emails by intent (meeting requests, support questions, spam, etc.) and urgency level
 - **Context-Aware Responses**: Generates professional email responses based on sender context and email content
@@ -11,7 +11,7 @@ A sophisticated AI-powered email processing agent that automatically classifies,
 - **Modular Architecture**: Built with LangGraph for easy customization and scaling
 - **Production Ready**: Comprehensive error handling, logging, and testing framework
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Installation](#installation)
 - [Quick Start](#quick-start)
@@ -24,7 +24,7 @@ A sophisticated AI-powered email processing agent that automatically classifies,
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 
@@ -68,7 +68,7 @@ cp .env.example .env
 nano .env  # or use your preferred editor
 ```
 
-## ⚡ Quick Start
+## Quick Start
 
 ### 1. Set Your OpenAI API Key
 
@@ -107,7 +107,7 @@ print(f"Classification: {result['classification'].intent}")
 print(f"Response: {result['final_response']}")
 ```
 
-## ⚙️ Configuration
+#Configuration
 
 ### Environment Variables
 
@@ -145,7 +145,7 @@ The agent supports different OpenAI models:
 - `gpt-3.5-turbo` (faster, more cost-effective)
 - `gpt-4` (most capable, slower)
 
-## 📖 Usage
+## Usage
 
 ### Basic Usage
 
@@ -493,7 +493,7 @@ workflow.add_node("custom_processing", self._custom_processing_node)
 workflow.add_edge("classify_email", "custom_processing")
 ```
 
-## 🤝 Contributing
+## Contributing
 
 ### Development Setup
 
@@ -522,18 +522,18 @@ workflow.add_edge("classify_email", "custom_processing")
 4. Follow the existing code style
 5. Write clear commit messages
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [LangGraph](https://github.com/langchain-ai/langgraph) for the workflow framework
 - [OpenAI](https://openai.com/) for the language models
 - [Pydantic](https://pydantic.dev/) for data validation
 - [LangChain](https://github.com/langchain-ai/langchain) for the AI application framework
 
-## 📞 Support
+## Support
 
 ### Getting Help
 
