@@ -384,7 +384,7 @@ mock_calendar = MockCalendarService()
 availability = mock_calendar.get_availability(days_ahead=7)
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Production Setup
 
@@ -460,7 +460,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 ```
 
-## 🔧 Customization
+## Customization
 
 ### Adding New Email Intents
 
@@ -569,7 +569,7 @@ pip install -r requirements.txt
 - Batch process multiple emails
 - Use async processing for high volume
 
-## 🔮 Roadmap
+## Roadmap
 
 - [ ] **v1.1**: Real Gmail and Calendar API integration
 - [ ] **v1.2**: Multi-language support
@@ -580,7 +580,7 @@ pip install -r requirements.txt
 - [ ] **v2.1**: Voice note transcription
 - [ ] **v2.2**: Attachment processing
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 ### Benchmarks
 
@@ -597,7 +597,3 @@ pip install -r requirements.txt
 - **Batch Processing**: Process multiple emails together
 
 ---
-
-**Made with ❤️ by Kato Ernest Henry**
-
-For more information, visit our [GitHub repository](https://github.com/ernesthenry/email-agent).
